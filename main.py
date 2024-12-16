@@ -11,7 +11,8 @@ from pyromod import listen
 from pyrogram.types import Message    
 from p_bar import progress_bar    
 from subprocess import getstatusoutput    
-from aiohttp import ClientSession    
+from aiohttp import ClientSession 
+from pyrogram import Client
 import helper    
 from logger import logging    
 import time    
@@ -42,10 +43,11 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.") 
 ADMINS.append(OWNER)
 
-bot = Client("bot",    
-   bot_token="",    
-   api_id="22475741",    
-   api_hash= ""
+bot = Client(
+    "bot",
+    bot_token="YOUR_BOT_TOKEN_HERE",
+    api_id="22475741",  # Replace with your actual API ID
+    api_hash="YOUR_API_HASH_HERE"
 )
 
 @bot.on_message(filters.command(["started"]))    
