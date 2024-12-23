@@ -33,7 +33,7 @@ photo1 = 'https://envs.sh/PQ_.jpg'
 getstatusoutput(f"wget {photo1} -O 'photo.jpg'")    
 photo = "photo.jpg"
 
-credit ="😎𝖘:)™~" 
+credit ="••.•´¯`•.••   🎀  𝐿𝒰𝒞𝐼𝐹𝐸𝑅  🎀   ••.•`¯´•.••" 
 OWNER = int(os.environ.get("OWNER",  7376514183))
 try: 
     ADMINS=[] 
@@ -52,7 +52,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["started"]))    
 async def account_login(bot: Client, m: Message):    
-    editable = await m.reply_text("**👋 ʜᴇʟʟᴏ!\n🌟ɪ ᴀᴍ ᴛxᴛ ꜰɪʟᴇ ᴅᴏᴡʟᴏᴀᴅᴇʀ ʙᴏᴛ** \n\n❤️‍🔥 **ᴘʀᴇꜱꜱ /scammer ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ʙʏ ᴛxᴛ**\n\n❤️‍🩹 **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/'>ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ</a>** \n\n<pre>💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : https://t.me/ScmersHell</pre>\n-═════━‧₊˚❀༉‧₊˚.━═════-") 
+    editable = await m.reply_text("**👋 ʜᴇʟʟᴏ!\n🌟ɪ ᴀᴍ ᴛxᴛ ꜰɪʟᴇ ᴅᴏᴡʟᴏᴀᴅᴇʀ ʙᴏᴛ** \n\n❤️‍🔥 **ᴘʀᴇꜱꜱ /lucifer ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ʙʏ ᴛxᴛ**\n\n❤️‍🩹 **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/LP_YAGAMI/'>ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ</a>** \n\n<pre>💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : https://t.me/LP_LUCIFER</pre>\n-═════━‧₊˚❀༉‧₊˚.━═════-") 
 
 @bot.on_message(filters.command("Ruko"))    
 async def restart_handler(_, m):    
@@ -124,7 +124,7 @@ async def account_login(bot: Client, m: Message):
 
 
 
-    await editable.edit("**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━➣\n┣⪼ 144\n┣⪼ 240\n┣⪼ 360\n┣⪼ 480\n┣⪼ 720\n┣⪼ 1080\n╰━━⌈⚡[😎𝖘cᾰ𝗺𝗺ⲉ𝗿:)™~]⚡⌋━━➣ **")   
+    await editable.edit("**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━➣\n┣⪼ 144\n┣⪼ 240\n┣⪼ 360\n┣⪼ 480\n┣⪼ 720\n┣⪼ 1080\n╰━━⌈⚡[••.•´¯`•.••   🎀  𝐿𝒰𝒞𝐼𝐹𝐸𝑅  🎀   ••.•`¯´•.••]⚡⌋━━➣ **")   
     input2: Message = await bot.listen(editable.chat.id)    
     raw_text2 = input2.text    
     await input2.delete(True)    
@@ -158,7 +158,7 @@ async def account_login(bot: Client, m: Message):
         MR = raw_text3
 
 
-    await editable.edit("-═════━‧₊˚❀༉‧₊˚.━═════-\nɴᴏᴡ ꜱᴇɴᴅ ᴛʜᴇ **ᴛʜᴜᴍʙ ᴜʀʟ**\nᴇɢ : `ʜᴛᴛᴘꜱ://ɢʀᴀᴘʜ.ᴏʀɢ/ꜰɪʟᴇ/45ꜰ562ᴅᴄ05ʙ2874ᴄ7277ᴇ.ᴊᴘɢ`ᴏʀ ꜱᴇɴᴅ [`no`]\n-═════━‧₊˚❀༉‧₊˚.━═════-")    
+    await editable.edit("-═════━‧₊˚❀༉‧₊˚.━═════-\nɴᴏᴡ ꜱᴇɴᴅ ᴛʜᴇ **ᴛʜᴜᴍʙ ᴜʀʟ**\nᴇɢ : `https://graph.org/file/6b3baeaf82f7eee52e7f9-b7a6b2c5d5c13bf1c0.jpg`ᴏʀ ꜱᴇɴᴅ [`no`]\n-═════━‧₊˚❀༉‧₊˚.━═════-")    
     input6 = message = await bot.listen(editable.chat.id)    
     raw_text6 = input6.text
     thumb = input6.text    
@@ -225,15 +225,19 @@ async def account_login(bot: Client, m: Message):
                 
                 
             elif "edge.api.brightcove.com" in url:
-                bcov = 'bcov_auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MjQyMzg3OTEsImNvbiI6eyJpc0FkbWluIjpmYWxzZSwiYXVzZXIiOiJVMFZ6TkdGU2NuQlZjR3h5TkZwV09FYzBURGxOZHowOSIsImlkIjoiZEUxbmNuZFBNblJqVEROVmFWTlFWbXhRTkhoS2R6MDkiLCJmaXJzdF9uYW1lIjoiYVcxV05ITjVSemR6Vm10ak1WUlBSRkF5ZVNzM1VUMDkiLCJlbWFpbCI6Ik5Ga3hNVWhxUXpRNFJ6VlhiR0ppWTJoUk0wMVdNR0pVTlU5clJXSkRWbXRMTTBSU2FHRnhURTFTUlQwPSIsInBob25lIjoiVUhVMFZrOWFTbmQ1ZVcwd1pqUTViRzVSYVc5aGR6MDkiLCJhdmF0YXIiOiJLM1ZzY1M4elMwcDBRbmxrYms4M1JEbHZla05pVVQwOSIsInJlZmVycmFsX2NvZGUiOiJOalZFYzBkM1IyNTBSM3B3VUZWbVRtbHFRVXAwVVQwOSIsImRldmljZV90eXBlIjoiYW5kcm9pZCIsImRldmljZV92ZXJzaW9uIjoiUShBbmRyb2lkIDEwLjApIiwiZGV2aWNlX21vZGVsIjoiU2Ftc3VuZyBTTS1TOTE4QiIsInJlbW90ZV9hZGRyIjoiNTQuMjI2LjI1NS4xNjMsIDU0LjIyNi4yNTUuMTYzIn19.snDdd-PbaoC42OUhn5SJaEGxq0VzfdzO49WTmYgTx8ra_Lz66GySZykpd2SxIZCnrKR6-R10F5sUSrKATv1CDk9ruj_ltCjEkcRq8mAqAytDcEBp72-W0Z7DtGi8LdnY7Vd9Kpaf499P-y3-godolS_7ixClcYOnWxe2nSVD5C9c5HkyisrHTvf6NFAuQC_FD3TzByldbPVKK0ag1UnHRavX8MtttjshnRhv5gJs5DQWj4Ir_dkMcJ4JaVZO3z8j0OxVLjnmuaRBujT-1pavsr1CCzjTbAcBvdjUfvzEhObWfA1-Vl5Y4bUgRHhl1U-0hne4-5fF0aouyu71Y6W0eg'
+                bcov = 'bcov_auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MzQ3NTIzMTcsImNvbiI6eyJpc0FkbWluIjpmYWxzZSwiYXVzZXIiOiJVMFZ6TkdGU2NuQlZjR3h5TkZwV09FYzBURGxOZHowOSIsImlkIjoiTnpoSmIyeEtjRmw0WldOblltcHRPUzl6ZG1Kdlp6MDkiLCJmaXJzdF9uYW1lIjoiU0VsTllVSXJaR1pOZFhBMFpWaDJhbkZ6Y1ZaVFFUMDkiLCJlbWFpbCI6IkwzSkRkR2wxV0c5aEsyWldkSFZVY3pFMWEwVnVVa0owZGxWSWNXeHNRVnB5UjBZNE5FbHdPWEJhVVQwPSIsInBob25lIjoiVjFoaVUzQXlRVWxrWmpCYWVVdGpRMWwzZDJkcFVUMDkiLCJhdmF0YXIiOiJLM1ZzY1M4elMwcDBRbmxrYms4M1JEbHZla05pVVQwOSIsInJlZmVycmFsX2NvZGUiOiJNSE5STjBGaWVVZE1aRmREYTBwWWRXbHhSazh6UVQwOSIsImRldmljZV90eXBlIjoiYW5kcm9pZCIsImRldmljZV92ZXJzaW9uIjoiUShBbmRyb2lkIDEwLjApIiwiZGV2aWNlX21vZGVsIjoiWGlhb21pIE0yMDA3SjIwQ0kiLCJyZW1vdGVfYWRkciI6IjMuODQuMTQuMiJ9fQ.bxswfOhz0oDmhcu_W2ojVQ6NcCjmWGDCeZoahsCDnfwfalrmT1rONogeFaLg6Sh7BK-oSxOZXxalYOwEFfs2UlFxsLWjUYD4MdOwIl03HRnW4dY9cQ4uw5_9tVJj4IPZunXid_c-SiFZXlUKmb_fnfjpIAnCpu4ZhlMkG_YmbMU0w93zgUc5PYsnSEu3WP2cMFaRJSMDlsPDxAy5UWdQdBpP7FmVflcIgedptt0JKR8zqvUlNAxBFer4iFX_LABkMNitAoq72bp17Nb3V9DAvNt8ZVigZQmfis_3yFnOTsP9zEvxAsI8HoU1v-zQ6IXT36_1TMCntQg9G7YmORDT5g'
                 url = url.split("bcov_auth")[0]+bcov
+
+            elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
+              id = url.split("/")[3]
+              url = "https://madxpw.onrender.com/" + id + "/master.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzU1NzkzMDcuMzMzLCJkYXRhIjp7Il9pZCI6IjYzNTE4YzkyOWIwNjg3MDAxOGIyMGM4NCIsInVzZXJuYW1lIjoiNzM4MDgzODQ5MSIsImZpcnN0TmFtZSI6IktyYXRpayIsImxhc3ROYW1lIjoiIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sImVtYWlsIjoia3JhdGlrNDM3QGdtYWlsLmNvbSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsInR5cGUiOiJVU0VSIn0sImlhdCI6MTczNDk3NDUwN30.EcclpscuE5LwK_F71MHSS01YaPbX5xTqgEoHFjnjrOc"
             
             elif ".pdf" in url:
                 url = url.replace(" ","%20")
 
 
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()    
-            name = f'{str(count).zfill(3)})😎𝖘cᾰ𝗺𝗺ⲉ𝗿:)™~{name1[:60]}' 
+            name = f'{str(count).zfill(3)})••.•´¯`•.••   🎀  𝐿𝒰𝒞𝐼𝐹𝐸𝑅  🎀   ••.•`¯´•.••{name1[:60]}' 
             ytf = f"b[height<={raw_text2}]/bv[height<={raw_text2}]+ba/b/bv+ba" 
 
     
@@ -285,7 +289,7 @@ async def account_login(bot: Client, m: Message):
                         continue
                      
                 else:
-                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ....**\n\n**📚❰Name❱** `{name}\n🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n🌿**Url**» ᴘᴀᴅʜᴀɪ ᴋᴀʀ ʟᴇ ʙʀᴏ🧐\n\n **ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ [😎𝖘cᾰ𝗺𝗺ⲉ𝗿:)™]**\n**═════━‧₊˚❀༉‧₊˚.━═════ **"    
+                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ....**\n\n**📚❰Name❱** `{name}\n🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n🌿**Url**» ᴘᴀᴅʜᴀɪ ᴋᴀʀ ʟᴇ ʙʀᴏ🧐\n\n **ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ [••.•´¯`•.••   🎀  𝐿𝒰𝒞𝐼𝐹𝐸𝑅  🎀   ••.•`¯´•.••]**\n**═════━‧₊˚❀༉‧₊˚.━═════ **"    
                     prog = await m.reply_text(Show)    
                     res_file = await helper.download_video(url, cmd, name)    
                     filename = res_file    
@@ -297,7 +301,7 @@ async def account_login(bot: Client, m: Message):
                     
             except Exception as e:
                 await m.reply_text(
-                    f"**downloading failed [😎𝖘cᾰ𝗺𝗺ⲉ𝗿:)™]**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`\n\n═════━‧₊˚❀༉‧₊˚.━═════"
+                    f"**downloading failed [••.•´¯`•.••   🎀  𝐿𝒰𝒞𝐼𝐹𝐸𝑅  🎀   ••.•`¯´•.••]**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`\n\n═════━‧₊˚❀༉‧₊˚.━═════"
                     )
                 
     except Exception as e:
