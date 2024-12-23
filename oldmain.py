@@ -173,11 +173,14 @@ async def account_login(bot: Client, m: Message):
             elif "edge.api.brightcove.com" in url:
               b ='bcov_auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MzQ3NTIzMTcsImNvbiI6eyJpc0FkbWluIjpmYWxzZSwiYXVzZXIiOiJVMFZ6TkdGU2NuQlZjR3h5TkZwV09FYzBURGxOZHowOSIsImlkIjoiTnpoSmIyeEtjRmw0WldOblltcHRPUzl6ZG1Kdlp6MDkiLCJmaXJzdF9uYW1lIjoiU0VsTllVSXJaR1pOZFhBMFpWaDJhbkZ6Y1ZaVFFUMDkiLCJlbWFpbCI6IkwzSkRkR2wxV0c5aEsyWldkSFZVY3pFMWEwVnVVa0owZGxWSWNXeHNRVnB5UjBZNE5FbHdPWEJhVVQwPSIsInBob25lIjoiVjFoaVUzQXlRVWxrWmpCYWVVdGpRMWwzZDJkcFVUMDkiLCJhdmF0YXIiOiJLM1ZzY1M4elMwcDBRbmxrYms4M1JEbHZla05pVVQwOSIsInJlZmVycmFsX2NvZGUiOiJNSE5STjBGaWVVZE1aRmREYTBwWWRXbHhSazh6UVQwOSIsImRldmljZV90eXBlIjoiYW5kcm9pZCIsImRldmljZV92ZXJzaW9uIjoiUShBbmRyb2lkIDEwLjApIiwiZGV2aWNlX21vZGVsIjoiWGlhb21pIE0yMDA3SjIwQ0kiLCJyZW1vdGVfYWRkciI6IjMuODQuMTQuMiJ9fQ.bxswfOhz0oDmhcu_W2ojVQ6NcCjmWGDCeZoahsCDnfwfalrmT1rONogeFaLg6Sh7BK-oSxOZXxalYOwEFfs2UlFxsLWjUYD4MdOwIl03HRnW4dY9cQ4uw5_9tVJj4IPZunXid_c-SiFZXlUKmb_fnfjpIAnCpu4ZhlMkG_YmbMU0w93zgUc5PYsnSEu3WP2cMFaRJSMDlsPDxAy5UWdQdBpP7FmVflcIgedptt0JKR8zqvUlNAxBFer4iFX_LABkMNitAoq72bp17Nb3V9DAvNt8ZVigZQmfis_3yFnOTsP9zEvxAsI8HoU1v-zQ6IXT36_1TMCntQg9G7YmORDT5g'           
               url = url.split("bcov_auth")[0]+b
+             
             elif "jw-prod" in url:
               url = url.replace(url.split("/")[-1], res+'.mp4')
+             
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
               id = url.split("/")[3]
               url = "https://madxpw.onrender.com/" + id + "/master.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzU1NzkzMDcuMzMzLCJkYXRhIjp7Il9pZCI6IjYzNTE4YzkyOWIwNjg3MDAxOGIyMGM4NCIsInVzZXJuYW1lIjoiNzM4MDgzODQ5MSIsImZpcnN0TmFtZSI6IktyYXRpayIsImxhc3ROYW1lIjoiIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sImVtYWlsIjoia3JhdGlrNDM3QGdtYWlsLmNvbSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsInR5cGUiOiJVU0VSIn0sImlhdCI6MTczNDk3NDUwN30.EcclpscuE5LwK_F71MHSS01YaPbX5xTqgEoHFjnjrOc"
+             
             elif ".pdf" in url:
                 url = url.replace(" ","%20")
           
